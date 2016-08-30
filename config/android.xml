@@ -24,11 +24,6 @@
     <androidGuideFlow>
 		<step>slide>>left::4</step>
         <step>click>>id::com.pingan.yzt:id/btnnext</step><!-- 点击立即开启   -->
-        <step>click>>id::com.pingan.yzt:id/rightBtn</step><!-- 残忍拒绝 -->
-        <step>click>>id::com.pingan.yzt:id/iv_ads</step><!-- 点击爆款广告位 -->
-		<step>assert>>|快盈0期</step><!-- 查看产品列表 -->
-        <step>click>>id::com.pingan.yzt:id/iv_title_back_button</step><!-- 回退按钮 -->
-        <step>assert>>|首页</step><!-- 回退到首页 --> 
     </androidGuideFlow>
     <rule>
         <!--窗口鉴定策略,默认取前8个节点生成md5-->
