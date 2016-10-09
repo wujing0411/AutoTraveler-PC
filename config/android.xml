@@ -29,7 +29,7 @@
         <step>click>>xpath:://android.widget.TabWidget[@resource-id='android:id/tabs']/android.widget.LinearLayout[2]</step>
         <step>assert>>|爆款产品</step>
         <step>click>>id::com.pingan.yzt:id/ll_all</step>
-        <step>assert>>|快盈127期</step>
+        <step>assert>>|快盈152期</step>
         <step>click>>id::com.pingan.yzt:id/iv_title_back_button</step><!-- 回退按钮 -->
         <step>assert>>|金融旗舰店</step><!-- 金融旗舰店 -->
         
