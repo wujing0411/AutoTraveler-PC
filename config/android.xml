@@ -27,12 +27,17 @@
         <step>click>>id::com.pingan.yzt:id/rightBtn</step>
         <!-- 金融旗舰店 -->
         <step>click>>xpath:://android.widget.TabWidget[@resource-id='android:id/tabs']/android.widget.LinearLayout[2]</step>
-        <step>assert>>|爆款产品</step>
-        <step>click>>id::com.pingan.yzt:id/ll_all</step>
-        <step>assert>>|快盈152期</step>
-        <step>click>>id::com.pingan.yzt:id/iv_title_back_button</step><!-- 回退按钮 -->
-        <step>assert>>|金融旗舰店</step><!-- 金融旗舰店 -->
-        
+        <step>assert>>|定期理财</step>
+        <!-- 进入定期理财页面 -->
+        <step>slide>>up::1500</step>
+        <step>click>>id::com.pingan.yzt:id/rl_invest_title</step>
+        <step>assert>>|快盈161期</step>
+        <step>click>>xpath:://*[@id="root"]/div/div/div/div/section[2]/div/div/section[1]/div/div[2]|webview</step><!-- 回退按钮 -->
+        <!-- 进入购买页面 -->
+        <step>assert>>|立即购买</step><!-- 金融旗舰店 -->
+        <step>click>>xpath:://*[@id="root"]/div/div/div/div/div/section[6]/div/div[2]/button|webview</step>
+        <!-- 跳转到登录页面 -->
+        <step>assert>>|用户名/手机号/身份证号</step>
     </androidGuideFlow>
     <rule> 
         <!--窗口鉴定策略,默认取前8个节点生成md5-->
